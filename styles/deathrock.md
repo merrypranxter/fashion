@@ -11,7 +11,7 @@ US gothic-punk variant blending black punk staples with camp horror cues, skelet
 
 **Cultural context:** Post-punk mutation; horror cinema aesthetics; club-night performance identity.
 
-**Aesthetic opposites / contrasts:** Preppy / ivy; minimalism (90s).
+**Aesthetic opposites / contrasts:** Preppy / Ivy; Minimalism (90s).
 
 ---
 
