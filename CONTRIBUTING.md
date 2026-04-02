@@ -5,7 +5,7 @@ This repository is a structured reference of late 20th‑century fashion movemen
 The goal of any contribution is to keep the data:
 - Historically grounded (anchored to real scenes, garments, subcultures).
 - Prompt‑ready (short, composable phrases instead of prose descriptions).[cite:11][cite:12]
-- Consistent with the existing schema in `vocab/schema.yaml` and the 28 styles in `styles_index.yaml`.[cite:3][cite:11]
+- Consistent with the existing schema in `vocab/schema.yaml` and the styles in `styles_index.yaml`.[cite:3][cite:11]
 
 ## Adding or editing a style record
 
