@@ -2,7 +2,7 @@
 
 **Style ID:** `cybergoth`  
 **Active Window:** 1997–2000  
-**Origin:** European club/rave circuits  
+**Origin:** European club / rave circuits  
 **Decade(s):** 1990s
 
 ## Overview
