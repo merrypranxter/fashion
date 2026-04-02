@@ -11,7 +11,7 @@ Stripped-down anti-fashion uniform built for movement: cut-offs, plain tees, sne
 
 **Cultural context:** DIY ethics; anti-commercial stance; mosh-pit functionality.
 
-**Aesthetic opposites / contrasts:** Power dressing; y2k millennium futurism.
+**Aesthetic opposites / contrasts:** Power Dressing; Millennium Futurism (Y2K).
 
 ---
 
