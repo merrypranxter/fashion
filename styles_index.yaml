@@ -1,0 +1,762 @@
+# styles_index.yaml
+# Fashion Styles, Trends, and Aesthetics — 1960 to 2000
+# Machine-readable index for AI prompt systems and art generation tools.
+# Each style record is decomposable into prompt-ready parts.
+#
+# Schema: id, label, aka, years, origin, influences, parts, tokens, visual_examples
+# See /vocab/schema.yaml for full field definitions.
+# See /meta/influence_graph.md for the relationship/wiring diagram.
+
+- id: beatnik_couture
+  label: "Beatnik-influenced couture"
+  aka: ["existentialist chic", "beat look (couture context)"]
+  years: {start: 1960, end: 1962}
+  origin:
+    regions: ["France"]
+    cities: ["Paris"]
+  influences:
+    culture: ["Left Bank bohemia", "beatnik/nonconformist street dress"]
+    music: ["jazz clubs (as scene context)"]
+  parts:
+    silhouette: ["slim", "close-to-body", "clean lines"]
+    materials: ["black leather", "couture tailoring"]
+    palette: ["black", "deep neutrals"]
+    garments: ["cropped jacket", "dark dress/ensemble", "lean trousers"]
+    accessories: ["minimal jewelry", "sleek gloves (optional)"]
+    grooming: ["sharp eyeliner (optional)", "short/mod bob (optional)"]
+  designers_brands: ["House of Dior (YSL era)"]
+  figures_media: ["street nonconformists (archetype)"]
+  tokens:
+    - "dark couture minimalism"
+    - "leather-in-couture contrast"
+    - "Left Bank bohemian edge"
+  visual_examples:
+    - https://www.metmuseum.org/art/collection/search/665490
+    - https://museeyslparis.com/en/biography/les-annees-dior
+
+- id: mod
+  label: "Mod"
+  aka: ["modernists", "clean-lined youth tailoring"]
+  years: {start: 1958, end: 1966}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London"]
+  influences:
+    culture: ["youth consumerism", "boutique retail"]
+    music: ["R&B", "modern jazz", "beat groups"]
+  parts:
+    silhouette: ["boxy", "A-line/shift", "above-knee", "narrow trousers"]
+    materials: ["wool jersey", "crisp cotton", "smooth suiting"]
+    palette: ["black/white blocks", "primary brights", "graphic neutrals"]
+    garments: ["shift dress", "mini dress", "pinafore over knit", "boxy jacket", "narrow trousers"]
+    accessories: ["opaque colored tights", "simple flats", "clean ankle/mid-calf boots", "structured handbag"]
+    grooming: ["precision bob", "Twiggy lashes (optional)", "clean eyeliner"]
+  designers_brands: ["Mary Quant", "John Stephen", "Biba (overlap)"]
+  figures_media: ["Carnaby Street archetype"]
+  tokens:
+    - "sharp mod tailoring"
+    - "graphic color blocking"
+    - "youth boutique street style"
+  visual_examples:
+    - https://www.metmuseum.org/art/collection/search/768838
+    - https://www.vam.ac.uk/articles/the-miniskirt-myth
+    - https://www.vam.ac.uk/articles/introducing-mary-quant
+
+- id: youthquake_swinging_london
+  label: "Youthquake / Swinging London mass-trend"
+  aka: ["disposable fashion boom", "youthquake retail explosion"]
+  years: {start: 1965, end: 1968}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London"]
+  influences:
+    culture: ["teen market expansion", "magazine-driven trend cycles"]
+    music: ["pop + rock as style engine"]
+  parts:
+    silhouette: ["micro-mini", "simple shift canvas for graphics"]
+    materials: ["synthetics", "paper/cellulose blends"]
+    palette: ["high-contrast", "Pop-art brights", "optical black/white"]
+    garments: ["paper shift dress", "mini dress", "graphic tights"]
+    accessories: ["plastic jewelry", "bold makeup-as-fashion"]
+    grooming: ["statement lashes", "graphic eyeliner"]
+  designers_brands: ["Mary Quant (mass impact)", "high-street boutiques (category)"]
+  figures_media: ["Vogue-editorial framing of youth dominance"]
+  tokens:
+    - "youthquake energy"
+    - "Pop-art disposable dress"
+    - "fast trend cycle, graphic mini"
+  visual_examples:
+    - https://omeka.library.unt.edu/s/Step-in-Time
+    - https://www.vam.ac.uk/articles/paper-dresses
+    - https://www.vam.ac.uk/exhibitions/mary-quant
+
+- id: space_age_futurism
+  label: "Space Age futurism"
+  aka: ["Space Age", "futurist mod"]
+  years: {start: 1964, end: 1968}
+  origin:
+    regions: ["France", "United Kingdom"]
+    cities: ["Paris", "London"]
+  influences:
+    culture: ["space-race modernity", "synthetic materials boom"]
+    music: ["contemporary pop (context)"]
+  parts:
+    silhouette: ["geometric", "structured", "architectural"]
+    materials: ["wool + synthetics", "plastic/PVC accents"]
+    palette: ["white", "black", "silver", "primary accents"]
+    garments: ["structured coatdress", "mini dress", "clean-lined coat", "go-go boots (white)"]
+    accessories: ["minimal futuristic hardware", "helmet-like hats (optional)"]
+    grooming: ["sleek hair", "graphic eyeliner"]
+  designers_brands: ["André Courrèges", "Pierre Cardin"]
+  figures_media: ["runway futurism archetype"]
+  tokens:
+    - "geometric space-age tailoring"
+    - "white boots + clean lines"
+    - "1960s futurist minimal"
+  visual_examples:
+    - https://www.metmuseum.org/art/collection/search/81118
+    - https://www.metmuseum.org/art/collection/search/110078
+    - https://www.vam.ac.uk/articles/an-introduction-to-1960s-fashion
+
+- id: paper_dress_pop_art
+  label: "Paper dress / Pop novelty"
+  aka: ["disposable dress", "printed paper shift"]
+  years: {start: 1966, end: 1967}
+  origin:
+    regions: ["United Kingdom", "United States"]
+    cities: ["London", "New York"]
+  influences:
+    culture: ["Pop graphics", "disposable consumer culture"]
+    music: ["pop (context)"]
+  parts:
+    silhouette: ["flat shift", "2D drape"]
+    materials: ["cellulose", "rayon/poly blends (paper-like)"]
+    palette: ["bold graphic print"]
+    garments: ["paper shift dress"]
+    accessories: ["plastic jewelry", "novelty prints"]
+    grooming: ["graphic makeup (optional)"]
+  designers_brands: ["Dispo (brand example)"]
+  figures_media: ["Pop print culture"]
+  tokens:
+    - "disposable paper shift dress"
+    - "Pop print poster-wear"
+    - "graphic two-dimensional silhouette"
+  visual_examples:
+    - https://www.vam.ac.uk/articles/paper-dresses
+    - https://www.vam.ac.uk/articles/an-introduction-to-1960s-fashion
+
+- id: hippie_psychedelic
+  label: "Hippie / psychedelic bohemia"
+  aka: ["boho (late 60s/early 70s)", "counterculture craft mix"]
+  years: {start: 1967, end: 1973}
+  origin:
+    regions: ["United States", "United Kingdom"]
+    cities: ["San Francisco (context)", "London (diffusion)"]
+  influences:
+    culture: ["secondhand/vintage mixing", "Eastern/folk references", "DIY craft"]
+    music: ["festival rock", "psychedelia"]
+  parts:
+    silhouette: ["loose", "layered", "flowing", "maxi"]
+    materials: ["suede", "denim", "crochet", "patchwork", "beads"]
+    palette: ["earth tones", "psychedelic brights", "paisley"]
+    garments: ["kaftan", "Afghan coat", "flowing skirt", "bell-bottom jeans", "fringe vest"]
+    accessories: ["headband", "round sunglasses", "beaded jewelry"]
+    grooming: ["long natural hair", "minimal makeup OR kohl"]
+  designers_brands: ["Giorgio di Sant'Angelo (example)", "vintage/secondhand (category)"]
+  figures_media: ["Woodstock archetype"]
+  tokens:
+    - "patchwork + suede + beads"
+    - "festival bohemian layers"
+    - "counterculture secondhand mix"
+  visual_examples:
+    - https://www.metmuseum.org/art/collection/search/105711
+    - https://www.vam.ac.uk/articles/patchwork-fashions
+
+- id: skinhead_first_wave
+  label: "Skinhead (first wave)"
+  aka: ["boots and braces (early)"]
+  years: {start: 1968, end: 1971}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London"]
+  influences:
+    culture: ["working-class identity", "Jamaican diaspora influence (music/style)"]
+    music: ["ska", "rocksteady", "early reggae"]
+  parts:
+    silhouette: ["practical", "close-cropped silhouette", "hard lines"]
+    materials: ["denim", "workwear cotton", "polo knit"]
+    palette: ["black/white", "oxblood", "neutral workwear"]
+    garments: ["polo shirt", "button-down shirt", "straight jeans", "bomber (later overlap)"]
+    accessories: ["braces/suspenders", "heavy boots"]
+    grooming: ["close-cropped/shaved hair"]
+  designers_brands: ["Dr. Martens (as iconic boot)", "Fred Perry (as iconic polo)"]
+  figures_media: ["street subculture archetype"]
+  tokens:
+    - "boots and braces"
+    - "working-class uniform precision"
+    - "close-cropped hardline streetwear"
+  visual_examples:
+    - https://www.museumofyouthculture.com/emergence-of-skinheads/
+
+- id: rude_boy_ska_rocksteady
+  label: "Rude boy (ska/rocksteady era)"
+  aka: ["sharp ska suiting"]
+  years: {start: 1962, end: 1968}
+  origin:
+    regions: ["Jamaica"]
+    cities: ["Kingston"]
+  influences:
+    culture: ["dancehall style competition", "street-tailoring as status"]
+    music: ["ska", "rocksteady"]
+  parts:
+    silhouette: ["sharp suit", "slim tie", "clean lines"]
+    materials: ["suiting wool", "crisp cotton shirt"]
+    palette: ["black/white", "neutrals"]
+    garments: ["two-piece suit", "button-down shirt", "slim tie"]
+    accessories: ["pork pie hat/trilby", "loafers"]
+    grooming: ["neat hair", "cool minimal styling"]
+  designers_brands: ["tailors (category)"]
+  figures_media: ["ska stars (archetype)"]
+  tokens:
+    - "sharp rude boy suiting"
+    - "pork pie hat + slim tie"
+    - "ska-era tailored street elegance"
+  visual_examples:
+    - https://www.museumofyouthculture.com/rude-boy/
+
+- id: glam_rock
+  label: "Glam rock"
+  aka: ["glitter rock", "dandy futurist rock"]
+  years: {start: 1971, end: 1975}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London (scene center)"]
+  influences:
+    culture: ["performance persona", "gender play", "stage costuming"]
+    music: ["glam rock"]
+  parts:
+    silhouette: ["theatrical", "body-emphatic", "dramatic shoulder/leg"]
+    materials: ["glitter", "lamé", "satin", "vinyl/leather accents"]
+    palette: ["metallics", "electric brights", "black"]
+    garments: ["jumpsuit", "cape", "skin-tight trousers", "statement jacket"]
+    accessories: ["platform boots", "bold jewelry"]
+    grooming: ["glitter makeup", "dramatic hair"]
+  designers_brands: ["stage costume designers (category)"]
+  figures_media: ["Ziggy-era rock star archetype"]
+  tokens:
+    - "glitter + platforms + persona-costume"
+    - "androgynous stage dandy"
+    - "seventies glam spectacle"
+  visual_examples:
+    - https://www.vam.ac.uk/shop/books/fashion-and-textiles/glam-rock-dandies-in-the-underworld-122197.html
+    - https://www.museumofyouthculture.com/glam-rock/
+
+- id: disco_glam
+  label: "Disco / nightlife glamour"
+  aka: ["Studio 54 chic", "urban minimal glamour (Halston line)"]
+  years: {start: 1974, end: 1979}
+  origin:
+    regions: ["United States"]
+    cities: ["New York City"]
+  influences:
+    culture: ["nightclub visibility", "dance-floor function + sparkle"]
+    music: ["disco"]
+  parts:
+    silhouette: ["slinky", "fluid", "body-skimming"]
+    materials: ["jersey", "sequins", "silk"]
+    palette: ["metallic", "black", "white", "jewel tones"]
+    garments: ["one-shoulder dress", "wrap dress", "wide-leg pant (optional)"]
+    accessories: ["heels", "sparkle jewelry"]
+    grooming: ["glossy hair", "glam makeup"]
+  designers_brands: ["Halston"]
+  figures_media: ["Studio 54 crowd archetype"]
+  tokens:
+    - "dance-floor slink"
+    - "sequins + jersey minimal glam"
+    - "nightclub couture energy"
+  visual_examples:
+    - https://www.brooklynmuseum.org/exhibitions/studio_54
+    - https://www.metmuseum.org/art/collection/search/159589
+
+- id: punk
+  label: "Punk"
+  aka: ["DIY hardware", "Seditionaries-era archetype"]
+  years: {start: 1976, end: 1978}
+  origin:
+    regions: ["United Kingdom", "United States"]
+    cities: ["London", "New York City (proto-punk context)"]
+  influences:
+    culture: ["anti-establishment", "DIY", "shock tactics"]
+    music: ["punk rock"]
+  parts:
+    silhouette: ["destroyed/unfinished", "strapped/bondage", "layered bricolage"]
+    materials: ["leather", "tartan", "ripped cotton", "metal hardware"]
+    palette: ["black", "red", "safety-pin silver"]
+    garments: ["bondage trousers", "ripped tee", "leather jacket", "tartan skirt (optional)"]
+    accessories: ["safety pins", "chains", "studs", "padlocks", "combat boots"]
+    grooming: ["spiked hair (optional)", "bold makeup", "piercings (optional)"]
+  designers_brands: ["Vivienne Westwood", "Malcolm McLaren"]
+  figures_media: ["Sex Pistols (scene anchor)"]
+  tokens:
+    - "DIY hardware punk"
+    - "ripped + pinned + strapped"
+    - "anti-fashion destruction aesthetics"
+  visual_examples:
+    - https://www.metmuseum.org/exhibitions/listings/2013/PUNK
+    - https://www.metmuseum.org/essays/vivienne-westwood-born-1941-and-the-postmodern-legacy-of-punk-style
+    - https://www.vam.ac.uk/articles/vivienne-westwood-punk-new-romantic-and-beyond
+
+- id: post_punk_new_wave
+  label: "Post-punk / New Wave"
+  aka: ["art-school street style", "straight-up era personal uniforms"]
+  years: {start: 1978, end: 1983}
+  origin:
+    regions: ["United Kingdom", "United States"]
+    cities: ["London", "New York City"]
+  influences:
+    culture: ["fanzines", "street photography", "art-school experimentation"]
+    music: ["post-punk", "new wave", "synth-pop (overlap)"]
+  parts:
+    silhouette: ["angular", "thrift-mixed", "personal uniform"]
+    materials: ["secondhand mix", "denim", "knits"]
+    palette: ["black", "muted brights", "clashing accents"]
+    garments: ["oversized blazer", "skinny trousers", "tee + layer stack"]
+    accessories: ["DIY badges/pins", "scarves", "cheap jewelry"]
+    grooming: ["graphic eyeliner", "experimental hair"]
+  designers_brands: ["i-D magazine (documentation format)"]
+  figures_media: ["street-cast style archetype"]
+  tokens:
+    - "post-punk thrift bricolage"
+    - "straight-up street portrait styling"
+    - "art-school DIY uniform"
+  visual_examples:
+    - https://www.vam.ac.uk/articles/100-years-of-fashion-photography
+    - https://i-d.co/article/35-awesome-straight-ups-from-the-archive/
+
+- id: two_tone_ska_revival
+  label: "Two-Tone ska revival"
+  aka: ["2 Tone", "ska revival monochrome"]
+  years: {start: 1979, end: 1982}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["Coventry (scene anchor)"]
+  influences:
+    culture: ["monochrome graphic identity", "rude boy revival"]
+    music: ["2 Tone ska"]
+  parts:
+    silhouette: ["sharp suit", "monochrome contrast"]
+    materials: ["suiting", "checked textiles"]
+    palette: ["black", "white", "checkerboard"]
+    garments: ["suit", "button-down", "tie"]
+    accessories: ["pork pie hat", "checked scarf (optional)"]
+    grooming: ["neat hair"]
+  designers_brands: ["label/scene identity as brand"]
+  figures_media: ["The Specials (scene anchor)"]
+  tokens:
+    - "black-and-white checked ska"
+    - "sharp suit + pork pie hat"
+    - "Two-Tone graphic uniform"
+  visual_examples:
+    - https://www.theguardian.com/music/2021/may/26/pork-pie-hats-and-politics-coventry-pays-tribute-to-2-tone-legacy-specials-ska-selecter
+    - https://www.museumofyouthculture.com/rude-boy/
+
+- id: new_romantic_blitz
+  label: "New Romantic / Blitz scene"
+  aka: ["Blitz kids", "club couture DIY glam"]
+  years: {start: 1980, end: 1984}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London"]
+  influences:
+    culture: ["club door politics", "DIY costume", "fashion magazines"]
+    music: ["new wave", "synth-pop"]
+  parts:
+    silhouette: ["exaggerated", "historical pastiche", "costume tailoring"]
+    materials: ["satin", "taffeta", "ruffles", "DIY remix"]
+    palette: ["rich jewel tones", "black", "white", "metallic accents"]
+    garments: ["pirate shirt", "sharp suit + flourish", "dramatic jacket"]
+    accessories: ["statement hats", "gloves", "ornate jewelry"]
+    grooming: ["theatrical makeup", "sculpted hair"]
+  designers_brands: ["Vivienne Westwood (overlap)"]
+  figures_media: ["Blitz club scene celebrities (archetype)"]
+  tokens:
+    - "Blitz club theatricality"
+    - "romantic pirate tailoring"
+    - "androgynous club costume glamour"
+  visual_examples:
+    - https://designmuseum.org/exhibitions/blitz-the-club-that-shaped-the-80s
+    - https://www.vam.ac.uk/blog/club-to-catwalk/club-catwalk-london-fashion-1980s-10th-july-2013-16-february-2014
+
+- id: goth
+  label: "Goth"
+  aka: ["post-punk gothic", "romantic dark"]
+  years: {start: 1981, end: 1995}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["London"]
+  influences:
+    culture: ["romanticism + post-punk styling", "club scenes"]
+    music: ["goth rock", "post-punk"]
+  parts:
+    silhouette: ["long lines", "fitted/structured + drape"]
+    materials: ["black lace", "velvet", "leather"]
+    palette: ["black", "deep wine", "midnight tones"]
+    garments: ["long coat", "corsetry (optional)", "lace top", "long skirt"]
+    accessories: ["silver jewelry", "ankh/cross motifs (optional)", "boots"]
+    grooming: ["pale base", "dark lipstick", "smoky eyes"]
+  designers_brands: ["independent labels (category)"]
+  figures_media: ["goth band archetypes"]
+  tokens:
+    - "black velvet + lace"
+    - "romantic dark clubwear"
+    - "post-punk gothic silhouette"
+  visual_examples:
+    - https://www.museumofyouthculture.com/goth/
+    - https://www.vam.ac.uk/articles/v-and-a-academy-online-course-gothic-to-goth
+
+- id: preppy_ivy
+  label: "Preppy / Ivy"
+  aka: ["Ivy League look", "collegiate classic"]
+  years: {start: 1980, end: 1999}
+  origin:
+    regions: ["United States"]
+    cities: ["Northeast US (context)"]
+  influences:
+    culture: ["elite campus style to mass aspiration"]
+    music: ["not music-centered"]
+  parts:
+    silhouette: ["tidy", "classic", "layered knits"]
+    materials: ["oxford cloth", "tweed", "cotton knit"]
+    palette: ["navy", "khaki", "white", "pastels"]
+    garments: ["oxford button-down", "navy blazer", "khakis", "sweater over shoulders"]
+    accessories: ["loafers", "boat shoes (optional)", "simple belt"]
+    grooming: ["clean grooming", "natural hair"]
+  designers_brands: ["Brooks Brothers", "J. Press", "Ralph Lauren"]
+  figures_media: ["campus archetype", "yuppie overlap"]
+  tokens:
+    - "Ivy League oxford + blazer"
+    - "khaki + navy classic"
+    - "preppy collegiate layering"
+  visual_examples:
+    - https://sites.fitnyc.edu/depts/museum/Ivy_Style/
+    - https://www.metmuseum.org/art/collection/search/80136
+
+- id: power_dressing
+  label: "Power dressing"
+  aka: ["power suit era", "corporate armor"]
+  years: {start: 1983, end: 1989}
+  origin:
+    regions: ["United States", "United Kingdom"]
+    cities: ["New York City", "London"]
+  influences:
+    culture: ["women in high-powered workplaces", "status visibility"]
+    music: ["not music-centered"]
+  parts:
+    silhouette: ["broad shoulders", "tailored", "structured"]
+    materials: ["suiting wool", "velvet statement elements"]
+    palette: ["black", "navy", "bold accents"]
+    garments: ["double-breasted blazer", "pencil skirt", "tailored dress with padded shoulders"]
+    accessories: ["bold costume jewelry", "heels"]
+    grooming: ["polished hair", "professional makeup"]
+  designers_brands: ["Giorgio Armani", "Donna Karan", "Thierry Mugler"]
+  figures_media: ["working woman archetype", "Dynasty TV (context)"]
+  tokens:
+    - "padded shoulder power suit"
+    - "boardroom armor silhouette"
+    - "bold accessory professional dressing"
+  visual_examples:
+    - https://nchistory.org/clothing-textiles-1980s-power-dressing/
+    - https://fashionhistory.fitnyc.edu/1980-1989/
+
+- id: aerobics_athleisure
+  label: "Aerobics / athleisure (80s)"
+  aka: ["Lycra fitness fashion", "workout-as-street"]
+  years: {start: 1981, end: 1985}
+  origin:
+    regions: ["United States"]
+    cities: ["Los Angeles", "New York City"]
+  influences:
+    culture: ["fitness culture boom", "body-image media"]
+    music: ["dance-pop", "synth-pop"]
+  parts:
+    silhouette: ["body-con", "stretch", "high-cut"]
+    materials: ["Lycra/spandex", "cotton jersey"]
+    palette: ["neon", "primary brights", "pastel accents"]
+    garments: ["leotard", "high-cut tights", "leg warmers", "oversized sweatshirt"]
+    accessories: ["leg warmers", "sneakers", "headband"]
+    grooming: ["high ponytail", "minimal or flush makeup"]
+  designers_brands: ["Norma Kamali", "activewear brands (category)"]
+  figures_media: ["Jane Fonda workout archetype"]
+  tokens:
+    - "neon Lycra workout body"
+    - "leg warmers + leotard"
+    - "80s aerobics energy"
+  visual_examples:
+    - https://fashionhistory.fitnyc.edu/1980-1989/
+
+- id: japanese_avant_garde_deconstruction
+  label: "Japanese avant-garde / deconstruction"
+  aka: ["deconstruction aesthetics", "Comme des Garçons school"]
+  years: {start: 1981, end: 1999}
+  origin:
+    regions: ["Japan"]
+    cities: ["Tokyo", "Paris (runway context)"]
+  influences:
+    culture: ["anti-Western shape conventions", "wabi-sabi philosophy"]
+    music: ["contemporary experimental (context)"]
+  parts:
+    silhouette: ["oversized", "asymmetric", "deconstructed volume"]
+    materials: ["black monochrome", "raw/distressed textiles", "concept-first fabrication"]
+    palette: ["black", "white", "monochrome", "occasional deep tones"]
+    garments: ["oversized jacket", "deconstructed tailoring", "asymmetric dress", "layered volumes"]
+    accessories: ["concept-first styling", "minimal or no accessories"]
+    grooming: ["unpolished or anti-grooming aesthetic"]
+  designers_brands: ["Rei Kawakubo / Comme des Garçons", "Yohji Yamamoto", "Issey Miyake"]
+  figures_media: ["Paris runway breakthrough (1981 context)"]
+  tokens:
+    - "black monochrome deconstruction"
+    - "asymmetric oversized anti-fashion"
+    - "Japanese avant-garde volume challenge"
+  visual_examples:
+    - https://www.metmuseum.org/art/collection/search/830765
+    - https://www.momu.be/en/exhibitions
+
+- id: antwerp_six_belgian_avant_garde
+  label: "Antwerp Six / Belgian avant-garde"
+  aka: ["Belgian deconstruction", "Antwerp school"]
+  years: {start: 1986, end: 1999}
+  origin:
+    regions: ["Belgium"]
+    cities: ["Antwerp"]
+  influences:
+    culture: ["conceptual art", "Japanese avant-garde influence", "deconstruction aesthetics"]
+    music: ["contemporary experimental (context)"]
+  parts:
+    silhouette: ["varied, art-driven", "conceptual construction"]
+    materials: ["experimental textiles", "unusual fabrication"]
+    palette: ["varied", "often dark or unexpected"]
+    garments: ["concept-driven pieces", "deconstructed tailoring", "experimental construction"]
+    accessories: ["conceptual styling"]
+    grooming: ["varied; anti-conventional"]
+  designers_brands: ["Ann Demeulemeester", "Dries Van Noten", "Martin Margiela", "Walter Van Beirendonck", "Dirk Bikkembergs", "Dirk Van Saene"]
+  figures_media: ["Antwerp Royal Academy graduates (context)"]
+  tokens:
+    - "Belgian avant-garde concept garment"
+    - "Antwerp school deconstruction"
+    - "experimental textile art-driven fashion"
+  visual_examples:
+    - https://www.momu.be/en/exhibitions/the-antwerp-six
+
+- id: hip_hop_streetwear
+  label: "Hip-hop streetwear"
+  aka: ["B-boy style", "rap fashion", "street logo culture"]
+  years: {start: 1979, end: 1999}
+  origin:
+    regions: ["United States"]
+    cities: ["New York City (Bronx/Brooklyn context)"]
+  influences:
+    culture: ["block-party/club culture", "neighborhood identity", "sports as style"]
+    music: ["hip-hop", "rap"]
+  parts:
+    silhouette: ["athletic + oversized", "baggy", "layered"]
+    materials: ["denim", "sportswear fabrics", "logo-heavy cotton"]
+    palette: ["bold brights", "earth tones", "black/white with logo pops"]
+    garments: ["baggy jeans", "oversized tee", "tracksuit", "basketball jersey", "puffer jacket"]
+    accessories: ["sneakers (Air Jordans, Adidas)", "baseball cap", "gold chains", "doorknockер earrings"]
+    grooming: ["fade haircut", "bold jewelry as identity"]
+  designers_brands: ["Adidas", "Nike/Jordan", "Puma", "FUBU", "Karl Kani", "Polo Ralph Lauren (street recontextualized)"]
+  figures_media: ["Run DMC (scene anchor)", "early MTV hip-hop", "NMAAHC hip-hop archives"]
+  tokens:
+    - "oversized logo streetwear"
+    - "sneaker + gold chain hip-hop"
+    - "b-boy athletic street identity"
+  visual_examples:
+    - https://www.fitnyc.edu/museum/exhibitions/hip-hop-style.php
+    - https://nmaahc.si.edu/explore/stories
+
+- id: acid_house_rave
+  label: "Acid house / rave"
+  aka: ["rave wear", "warehouse rave style"]
+  years: {start: 1988, end: 1992}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["Manchester", "London (warehouse scene)"]
+  influences:
+    culture: ["illegal warehouse parties", "MDMA culture", "functional motion-first dressing"]
+    music: ["acid house", "techno", "early rave"]
+  parts:
+    silhouette: ["baggy", "motion-first", "oversized"]
+    materials: ["sportswear synthetics", "neon cotton", "jersey"]
+    palette: ["neon", "fluorescent", "smiley-face yellow", "PLUR brights"]
+    garments: ["baggy trousers", "oversized hooded sweatshirt", "neon T-shirt", "dungarees"]
+    accessories: ["whistle", "bucket hat", "smiley badge", "glow accessories"]
+    grooming: ["minimal", "sweaty-dancing-ready"]
+  designers_brands: ["sportswear brands recontextualized (category)"]
+  figures_media: ["rave archive photography (Museum of Youth Culture)"]
+  tokens:
+    - "neon + smiley rave energy"
+    - "baggy motion-first warehouse aesthetic"
+    - "acid house fluorescent sportswear"
+  visual_examples:
+    - https://www.museumofyouthculture.com/acid-house/
+
+- id: club_kids_camp_clubwear
+  label: "Club kids / camp clubwear"
+  aka: ["NYC club scene extremes", "nightlife costume culture"]
+  years: {start: 1985, end: 1996}
+  origin:
+    regions: ["United States"]
+    cities: ["New York City"]
+  influences:
+    culture: ["nightclub performance", "drag/camp tradition", "celebrity of self"]
+    music: ["house", "dance", "club"]
+  parts:
+    silhouette: ["extreme costume", "anything-goes construction"]
+    materials: ["anything-goes: foam, feathers, vinyl, latex"]
+    palette: ["all palettes (no limits)"]
+    garments: ["costume-as-outfit", "drag-influenced construction", "extreme statement pieces"]
+    accessories: ["masks", "body paint", "props"]
+    grooming: ["theatrical face paint", "wigs", "extreme hair"]
+  designers_brands: ["self-made (category)"]
+  figures_media: ["Club Kids (New York club scene archetype)"]
+  tokens:
+    - "extreme camp costume club identity"
+    - "nightlife spectacle dressing"
+    - "club-kid body-as-art styling"
+  visual_examples:
+    - https://www.brooklynmuseum.org/exhibitions/studio_54
+
+- id: skate_street
+  label: "Skate street style"
+  aka: ["skater look", "skate-punk casual"]
+  years: {start: 1989, end: 1999}
+  origin:
+    regions: ["United States"]
+    cities: ["Los Angeles", "New York City"]
+  influences:
+    culture: ["skate subculture", "DIY zine culture", "music video aesthetics"]
+    music: ["punk", "alternative", "hip-hop crossover"]
+  parts:
+    silhouette: ["baggy", "durable", "practical"]
+    materials: ["denim", "cotton fleece", "canvas"]
+    palette: ["earth tones", "black", "graphic prints"]
+    garments: ["baggy cargo shorts/jeans", "oversized tee", "hooded sweatshirt", "flannel shirt"]
+    accessories: ["skate shoes (Vans, DC)", "snapback cap", "backpack"]
+    grooming: ["casual/minimal", "long or unkempt hair (optional)"]
+  designers_brands: ["Vans", "DC Shoes", "Stüssy", "Independent", "skate brands (category)"]
+  figures_media: ["Thrasher magazine archetype", "Museum of Youth Culture skate archive"]
+  tokens:
+    - "baggy durable skate casual"
+    - "oversized tee + cargo + skate shoes"
+    - "street skate youth identity"
+  visual_examples:
+    - https://www.museumofyouthculture.com/skateboarding/
+    - https://www.mopop.org/collection
+
+- id: grunge
+  label: "Grunge"
+  aka: ["Seattle sound style", "anti-polish layering"]
+  years: {start: 1986, end: 1994}
+  origin:
+    regions: ["United States"]
+    cities: ["Seattle (origin)", "broader US (diffusion)"]
+  influences:
+    culture: ["Pacific Northwest scene", "thrift store culture", "anti-glamour"]
+    music: ["grunge rock", "alternative rock"]
+  parts:
+    silhouette: ["layered sloppy", "deconstructed casual", "oversized"]
+    materials: ["flannel", "thrift/secondhand", "army surplus", "denim"]
+    palette: ["plaid/flannel earth tones", "faded black", "dirty white"]
+    garments: ["flannel shirt (tied or open)", "band tee", "ripped jeans", "thermal undershirt", "combat boots"]
+    accessories: ["beanie hat", "combat boots", "backpack"]
+    grooming: ["unwashed/bedhead", "minimal or no grooming"]
+  designers_brands: ["thrift store (category)", "Marc Jacobs for Perry Ellis (runway moment 1993)"]
+  figures_media: ["Nirvana (scene anchor)", "MoPOP grunge collection"]
+  tokens:
+    - "flannel + ripped jeans + combat boots"
+    - "thrift-layer anti-polish grunge"
+    - "Seattle scene bedhead layering"
+  visual_examples:
+    - https://www.mopop.org/collection
+    - https://fashionhistory.fitnyc.edu/1990-1999/
+
+- id: minimalism_90s
+  label: "Minimalism (90s)"
+  aka: ["anti-excess luxury", "clean luxury minimal"]
+  years: {start: 1990, end: 1999}
+  origin:
+    regions: ["United States", "France"]
+    cities: ["New York City", "Paris"]
+  influences:
+    culture: ["reaction to 80s excess", "recession aesthetics", "quiet luxury"]
+    music: ["not music-centered"]
+  parts:
+    silhouette: ["clean", "column", "spare", "architectural"]
+    materials: ["high-quality basics", "silk", "cashmere", "fine wool"]
+    palette: ["neutral", "white", "black", "camel", "grey"]
+    garments: ["slip dress", "column trouser", "minimal blazer", "clean sheath dress"]
+    accessories: ["quiet accessories", "simple hardware", "minimal jewelry"]
+    grooming: ["clean", "polished", "understated"]
+  designers_brands: ["Calvin Klein", "Jil Sander", "Helmut Lang", "Prada (90s era)"]
+  figures_media: ["runway coverage MFIT nineties exhibition"]
+  tokens:
+    - "clean neutral minimalist luxury"
+    - "column silhouette + quiet accessories"
+    - "90s anti-excess precision"
+  visual_examples:
+    - https://www.fitnyc.edu/museum/exhibitions/fashion-in-the-nineties.php
+    - https://www.metmuseum.org/art/collection/search/830765
+
+- id: britpop_madchester_mod_revival
+  label: "Britpop / Madchester (mod-revival casual)"
+  aka: ["90s mod revival", "terrace-to-stage casual"]
+  years: {start: 1990, end: 1997}
+  origin:
+    regions: ["United Kingdom"]
+    cities: ["Manchester", "London"]
+  influences:
+    culture: ["working-class swagger", "retro sportswear + mod echoes"]
+    music: ["Britpop", "Madchester"]
+  parts:
+    silhouette: ["casual", "outerwear-led", "mod echoes"]
+    materials: ["parkas", "polo knits", "sportswear fabrics"]
+    palette: ["khaki", "navy", "black", "white"]
+    garments: ["parka", "button-down", "polo shirt", "straight jeans"]
+    accessories: ["desert boots", "trainers", "bucket hat (optional)"]
+    grooming: ["messy fringe (optional)"]
+  designers_brands: ["casual brands (category)"]
+  figures_media: ["Britpop band archetype"]
+  tokens:
+    - "parka + polo casual"
+    - "mod-revival swagger"
+    - "Britpop terrace style"
+  visual_examples:
+    - https://www.museumofyouthculture.com/madchester/
+    - https://fashionhistory.fitnyc.edu/1990-1999/
+
+- id: y2k_millennium_futurism
+  label: "Millennium futurism (late 90s / Y2K edge)"
+  aka: ["Y2K", "tech-fetish minimal futurism"]
+  years: {start: 1998, end: 2000}
+  origin:
+    regions: ["Global (media-driven)"]
+    cities: ["New York City", "London", "Paris"]
+  influences:
+    culture: ["tech acceleration", "runway spectacle", "film-tech aesthetics"]
+    music: ["pop", "electronic"]
+  parts:
+    silhouette: ["sleek", "cropped", "low-rise (often)", "strapped"]
+    materials: ["metallics", "black synthetics", "bonded/technical fabrics (optional)"]
+    palette: ["black", "silver", "chrome", "acid brights (optional)"]
+    garments: ["low-rise pants", "micro top", "strappy dress", "long black coat (optional)"]
+    accessories: ["tiny sunglasses", "belt harness/straps", "mini bag"]
+    grooming: ["glossy lip", "spiky or sleek hair"]
+  designers_brands: ["runway-tech aesthetics (category)"]
+  figures_media: ["turn-of-millennium runway spectacle (context)"]
+  tokens:
+    - "chrome + black techwear"
+    - "millennium straps + tiny sunglasses"
+    - "late-90s futurist club polish"
+  visual_examples:
+    - https://fashionhistory.fitnyc.edu/2000-2009/
+    - https://www.vogue.com/article/y2k-fashion

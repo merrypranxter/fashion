@@ -1,0 +1,127 @@
+# vocab/schema.yaml
+# JSON Schema definition for style movement records.
+# All style entries in styles_index.yaml and /styles/*.yaml conform to this schema.
+
+StyleMovement:
+  type: object
+  required: [id, label, years, origin, parts, visual_examples]
+  properties:
+    id:
+      type: string
+      pattern: "^[a-z0-9_]+$"
+      description: "Snake_case unique identifier. Used as filename base in /styles/"
+
+    label:
+      type: string
+      description: "Human-readable name for the style"
+
+    aka:
+      type: array
+      items:
+        type: string
+      description: "Alternative names, nicknames, or related search terms"
+
+    years:
+      type: object
+      required: [start, end]
+      properties:
+        start:
+          type: integer
+          description: "Approximate first year of the style"
+        end:
+          type: integer
+          description: "Approximate last year (can overlap with start of successors)"
+
+    origin:
+      type: object
+      properties:
+        regions:
+          type: array
+          items:
+            type: string
+          description: "Geographic regions where style originated"
+        cities:
+          type: array
+          items:
+            type: string
+          description: "Specific cities (with context note if needed)"
+
+    influences:
+      type: object
+      properties:
+        culture:
+          type: array
+          items:
+            type: string
+          description: "Cultural, social, or economic factors"
+        music:
+          type: array
+          items:
+            type: string
+          description: "Music scenes or genres as style drivers"
+
+    parts:
+      type: object
+      description: "Decomposable prompt-ready building blocks"
+      properties:
+        silhouette:
+          type: array
+          items:
+            type: string
+          description: "Shape, fit, and structure descriptors"
+        materials:
+          type: array
+          items:
+            type: string
+          description: "Fabrics, textures, and material types"
+        palette:
+          type: array
+          items:
+            type: string
+          description: "Color language and combinations"
+        garments:
+          type: array
+          items:
+            type: string
+          description: "Specific garment types associated with this style"
+        accessories:
+          type: array
+          items:
+            type: string
+          description: "Accessories and footwear"
+        grooming:
+          type: array
+          items:
+            type: string
+          description: "Hair, makeup, and grooming signals"
+
+    designers_brands:
+      type: array
+      items:
+        type: string
+      description: "Associated designers or brands (use 'category' in parens if generic)"
+
+    figures_media:
+      type: array
+      items:
+        type: string
+      description: "Cultural figures or media contexts that anchor the style visually"
+
+    tokens:
+      type: array
+      items:
+        type: string
+      description: "Short prompt fragments for direct injection into AI art prompts"
+
+    visual_examples:
+      type: array
+      items:
+        type: string
+        format: uri
+      description: "Stable museum/archive URLs for visual reference"
+
+# Notes for prompt assemblers:
+# 1. tokens = fastest path to generating a coherent look (drop directly into prompt)
+# 2. parts = composable building blocks for mixing styles (combine across records)
+# 3. visual_examples = image-link anchors for few-shot or reference prompting
+# 4. Never mix accessories/grooming from incompatible styles without checking influences
