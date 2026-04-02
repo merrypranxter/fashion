@@ -11,7 +11,7 @@ Jersey dresses that wrap and tie at the waist, balancing polish, comfort, and mo
 
 **Cultural context:** Women entering white-collar spaces; demand for adaptable practical elegance.
 
-**Aesthetic opposites / contrasts:** Power dressing; minimalist (90s).
+**Aesthetic opposites / contrasts:** Power Dressing; Minimalism (90s).
 
 ---
 
