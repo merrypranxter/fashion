@@ -11,7 +11,7 @@ Military and workwear-derived silhouettes with combat boots, hardware, flight ja
 
 **Cultural context:** Industrial/EBM scene growth; mechanization anxiety; post-nuclear visual language.
 
-**Aesthetic opposites / contrasts:** Bohemian revival 90s; preppy / ivy.
+**Aesthetic opposites / contrasts:** Bohemian Revival (90s); Preppy / Ivy.
 
 ---
 
