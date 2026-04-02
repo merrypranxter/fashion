@@ -11,7 +11,7 @@ Punk splinters combining stenciled politics, DIY patches, and either vegan anti-
 
 **Cultural context:** Ideological fragmentation of punk; local identity signaling.
 
-**Aesthetic opposites / contrasts:** Preppy / ivy; power dressing.
+**Aesthetic opposites / contrasts:** Preppy / Ivy; Power Dressing.
 
 ---
 
