@@ -11,7 +11,7 @@ Black technical layers, long coats, tactical straps, combat boots, and slim wrap
 
 **Cultural context:** Sci-fi media influence; internet-era anxiety; hacker iconography.
 
-**Aesthetic opposites / contrasts:** Preppy / ivy; bohemian revival (90s).
+**Aesthetic opposites / contrasts:** Preppy / Ivy; Bohemian Revival (90s).
 
 ---
 
