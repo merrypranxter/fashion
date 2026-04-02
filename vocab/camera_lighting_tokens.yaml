@@ -1,0 +1,46 @@
+# vocab/camera_lighting_tokens.yaml
+# Optional camera, lighting, and medium vocabulary for fashion prompts.
+# These tokens are model‑agnostic and can be combined with the style data in
+# styles_index.yaml and vocab/tokens.yaml.
+
+camera_framing_tokens:
+  - "full-body runway shot"
+  - "full-body street style shot"
+  - "three-quarter editorial portrait"
+  - "tight beauty close-up"
+  - "seated portrait in environment"
+  - "candid street snapshot"
+  - "walking-down-the-runway shot"
+  - "over-the-shoulder look back"
+
+camera_lens_tokens:
+  - "28mm wide-angle street lens"
+  - "35mm documentary street lens"
+  - "50mm normal perspective lens"
+  - "85mm shallow-depth portrait lens"
+  - "135mm compressed runway lens"
+
+lighting_tokens:
+  - "soft studio key light"
+  - "softbox side light with gentle shadows"
+  - "hard on-camera flash"
+  - "golden-hour backlight"
+  - "overcast diffuse daylight"
+  - "club strobe lighting"
+  - "neon sign glow"
+  - "moody high-contrast chiaroscuro light"
+
+medium_tokens:
+  - "1970s film grain"
+  - "35mm color film look"
+  - "black-and-white documentary film"
+  - "instant Polaroid aesthetic"
+  - "high-gloss magazine editorial"
+  - "street photography zine style"
+
+postprocessing_tokens:
+  - "slight motion blur"
+  - "light film grain"
+  - "subtle vignette"
+  - "high-contrast fashion retouch"
+  - "matte finish color grade"
