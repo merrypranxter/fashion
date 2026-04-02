@@ -11,7 +11,7 @@ Deliberately nonconforming youth style with bleached hair, deep tanning, dramati
 
 **Cultural context:** Youth rebellion against conservative beauty norms and social expectations.
 
-**Aesthetic opposites / contrasts:** Ladylike elegance; minimalist (90s).
+**Aesthetic opposites / contrasts:** Ladylike Elegance; Minimalism (90s).
 
 ---
 
