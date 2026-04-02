@@ -11,7 +11,7 @@ High-contrast geometric prints and color blocking designed to create optical vib
 
 **Cultural context:** Mass-media appetite for bold visuals; crossover of fine art into apparel.
 
-**Aesthetic opposites / contrasts:** Minimalism (90s); bohemian revival 90s.
+**Aesthetic opposites / contrasts:** Minimalism (90s); Bohemian Revival (90s).
 
 ---
 
